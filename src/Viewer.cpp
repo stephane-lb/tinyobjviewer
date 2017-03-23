@@ -28,8 +28,7 @@ Viewer::Viewer() : nanogui::Screen(Eigen::Vector2i(1024, 768), "TinyObjViewer") 
   performLayout();
   initShaders();
 
-  m_mesh = new Mesh("/Users/Saorel/Downloads/teapot.obj");
-  //m_mesh = new Mesh("/Users/Saorel/Downloads/metallic-lucy-statue-stanford-scan-obj-2/metallic-lucy-statue-stanford-scan.obj");
+  m_mesh = new Mesh("teapot.obj");
   this->refresh_mesh();
   this->refresh_trackball_center();
 }

@@ -181,7 +181,7 @@ Temporary Items
 *.app
 
 #personnal stuff
-_bulld/
+_build/
 cmake-build-debug/
 
 

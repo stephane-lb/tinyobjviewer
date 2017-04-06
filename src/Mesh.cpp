@@ -146,7 +146,7 @@ unsigned int Mesh::get_number_of_face() {
 }
 
 const Eigen::Vector3f Mesh::get_mesh_center() {
-  return Eigen::Vector3f();
+  return m_mesh_center;
 }
 
 const Eigen::MatrixXf* Mesh::get_points() {
